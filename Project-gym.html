@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gym Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0px;
+            padding: opx;
+            background: url('Background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 850px;
+            color: white;
+            font-family: 'Baloo 2', cursive;
+        }
+
+        /* 
+        .head{
+            position:sticky;
+            top :0px;
+        } */
+
+        .left {
+            /* border:2px solid red; */
+            width: 180px;
+            display: inline-block;
+            position: absolute;
+            top: 0px;
+            float: left;
+        }
+
+        .mid {
+            border: 1px solid #22303a;
+            background: #285473;
+            border-radius: 40px 40px;
+            color: black;
+            display: block;
+            width: 54%;
+            margin: 17px auto;
+            box-sizing: border-box;
+            font-size: 16px;
+            /* margin:0px 500px; ; */
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: -1px;
+            display: inline-block;
+            /* border:2px solid yellow; */
+            float: right;
+
+        }
+
+        .mid li {
+            text-align: center;
+            display: inline-block;
+            padding: 0px 45px;
+        }
+
+        .mid ul {
+            margin: 9px 6px;
+        }
+
+        .mid li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .mid li a:hover {
+
+            color: rgb(197, 188, 188);
+            text-decoration: underline;
+
+        }
+
+        .img {
+            width: 70px;
+            height: 70px;
+            border: 1px solid black;
+            border-radius: 40px 40px;
+            background: white;
+        }
+
+        .font {
+            color: white;
+            background: black;
+            border: 1px solid #e6d8d7;
+            float: right;
+            align-content: center;
+            padding: 7px 13px;
+            border-radius: 50px 50px;
+            margin: 18px -58px;
+            cursor: pointer;
+            transition: all 1s ease-in 0s;
+        }
+
+        .font:hover {
+            color: #285473;
+            background: white;
+        }
+
+        .btn {
+            color: white;
+            background: black;
+            width: 100px;
+            height: 40px;
+            cursor: pointer;
+            font-family: 'Baloo 2', cursive;
+            margin: 20px 5px;
+        }
+
+        .btn:hover {
+            background: #4a7899;
+        }
+
+        .bot {
+            position: absolute;
+            bottom: 2px;
+        }
+
+        .input1 {
+            border: 2px solid white;
+            text-align: center;
+            margin: 100px 0px;
+            padding: 34px 10px;
+            width: 500px;
+            border-radius: 30px 30px;
+            display: inline-block;
+        }
+
+        .form input {
+            border: 1px solid white;
+            width: 287px;
+            padding: 0px 7px;
+            text-align: center;
+            margin: 7px 41px;
+            font-size: 19px;
+            font-family: 'Baloo 2', cursive;
+
+            border-radius: 10px 10px;
+        }
+
+        #uni {
+            width: 304px;
+            /* border:1px solid white; */
+            border-radius: 10px;
+            font-size: 20px;
+        }
+
+        .simg {
+            width: 100vw;
+        }
+
+        .info {
+            /* border: 2px solid white; */
+            display: inline-block;
+            float: right;
+            margin: 84px -50px;
+            width: 600px;
+            border-radius: 30px 30px;
+
+        }
+
+        
+
+        .box {
+            color: white;
+            border: 2px solid white;
+            border-radius: 30px 30px;
+            padding: 5px 26px;
+            width: 500px;
+            margin: 9px 36px;
+            box-sizing: border-box;
+            transition: all 0.4s ease-in 0s;
+        }
+
+        .box:hover
+            {
+            color: white;
+            background: black;
+
+        }
+
+        .und {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="head">
+        <div class="left">
+            <!-- Left box for logo -->
+            <img class="img" src="logo.jpg" alt="">
+            <h4 class="font">Raiyan Fitness Gym</h4>
+
+
+
+        </div>
+        <div class="mid">
+            <!-- mid box for navbar -->
+            <ul>
+                <li><a href="�">Home</a></li>
+                <li><a href="�">Price</a></li>
+                <li><a href="�">Instructions</a></li>
+                <li><a href="�">About Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <!-- right for buttons -->
+            <button class="btn">Contact Us</button>
+            <button class="btn">Email US</button>
+
+        </div>
+    </header>
+
+    <div class="input1">
+        <h1>Join the best Gym of Umbergaon Now.</h1>
+        <div class="form">
+            <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="form">
+            <input type="number" placeholder="Enter your age">
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Enter your gender">
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Enter your city">
+        </div>
+
+        <button class="btn" id="uni">Submit Now</button>
+
+    </div>
+    <div class="info">
+        <div class="box">
+            <h2 class="und">Try Us</h2>
+            <p>Come in and see how our range of Freestyle group Training and signature group exercise classes can take
+                your fitness further.</p>
+        </div>
+        <div class="box">
+            <h2 class="und">Our Health Clubs</h2>
+            <p>Push your fitness further with our mix of facilities and we will support you with advice on new and
+                better ways to train.</p>
+        </div>
+        <div class="box">
+            <h2 class="und">Class TimeTable</h2>
+            <p>View the timetable for your club or find more information about a specific class.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
