@@ -1,0 +1,13 @@
+Process for uploading any project of github
+
+touch .gitignore
+git config --global user.name yourname
+git config --global user.email youremail
+git init
+git add
+git commit -m "Initial Commit"
+git status 
+copy and paste the key from settings
+tail == path
+
+for more information go to youtube channel "CodewihHarry"
